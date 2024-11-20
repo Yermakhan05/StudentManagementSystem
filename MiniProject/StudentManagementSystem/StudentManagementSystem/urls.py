@@ -16,16 +16,52 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from users.views import CustomTokenObtainPairView
+from rest_framework import permissions
+from drf_yasg.views import get_schema_view
+from drf_yasg import openapi
+
+
+schema_view = get_schema_view(
+    openapi.Info(
+        title="Student Management System API",
+        default_version='v1',
+        description="API документация для системы управления студентами",
+        terms_of_service="https://www.google.com/policies/terms/",
+        contact=openapi.Contact(email="support@example.com"),
+        license=openapi.License(name="BSD License"),
+    ),
+    public=True,
+    permission_classes=(permissions.AllowAny,),
+)
+
+swagger_schema = schema_view.with_ui('swagger', cache_timeout=0)
+swagger_schema.security_definitions = {
+    'Bearer': {
+        'type': 'apiKey',
+        'name': 'Authorization',
+        'in': 'header',
+        'description': (
+            "JWT авторизация. Введите токен в формате: Bearer <ваш токен>. "
+            "Получить токен можно через endpoint /auth/jwt/create/."
+        ),
+    },
+}
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    
+
     path('apiCourses/', include('courses.urls')),
     path('apiAttendance/', include('attendance.urls')),
     path('apiGrades/', include('grades.urls')),
-    #path('apiNotifications/', include('notifications.urls')),
     path('apiStudents/', include('students.urls')),
 
     path("auth/", include("djoser.urls")),
+    path('auth/jwt/create/', CustomTokenObtainPairView.as_view(), name='token_obtain_pair'),
     path("auth/", include("djoser.urls.jwt")),
+    path('', include('analytics.urls')),
+
+    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
+    path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
+    path('swagger.json', schema_view.without_ui(cache_timeout=0), name='schema-json'),
 ]

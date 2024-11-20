@@ -15,13 +15,3 @@ class Grade(models.Model):
 
     def __str__(self):
         return f"{self.student.user.username} - {self.course.name} - {self.grade}"
-
-
-@shared_task
-def notify_grade_update(student_email, course_name, grade):
-    send_mail(
-        "Grade Updated",
-        f"Your grade for {course_name} has been updated to {grade}.",
-        "admin@example.com",
-        [student_email],
-    )

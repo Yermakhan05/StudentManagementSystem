@@ -1,10 +1,23 @@
 from rest_framework.views import APIView
-from rest_framework.response import Response
 from .serializers import CustomUserCreateSerializer
-import logging
 from users.permissions import IsStudent, IsTeacher, IsAdmin
+import logging
+from rest_framework_simplejwt.views import TokenObtainPairView
+from rest_framework.response import Response
 
-logger = logging.getLogger('custom')
+logger = logging.getLogger('django')
+
+
+class CustomTokenObtainPairView(TokenObtainPairView):
+    def post(self, request, *args, **kwargs):
+        response = super().post(request, *args, **kwargs)
+
+        if response.status_code == 200:
+            logger.info(f"Пользователь с email вошел в систему.")
+        else:
+            logger.warning("Ошибка аутентификации при получении токенов.")
+
+        return response
 
 
 class StudentOnlyView(APIView):
