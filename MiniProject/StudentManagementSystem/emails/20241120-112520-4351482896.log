@@ -1,0 +1,39 @@
+Content-Type: multipart/alternative;
+ boundary="===============4519553168277691740=="
+MIME-Version: 1.0
+Subject: Account activation on 127.0.0.1:8000
+From: webmaster@localhost
+To: nowlast@kbtu.kz
+Date: Wed, 20 Nov 2024 11:25:20 -0000
+Message-ID: 
+ <173210192071.5244.5851285081278939735@1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa>
+
+--===============4519553168277691740==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+You're receiving this email because you need to finish activation process on 127.0.0.1:8000.
+
+Please go to the following page to activate account:
+http://127.0.0.1:8000/activate/MjY/cgsfq8-0ac255d7214d74aba99c82cbfe5dac8c/
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+--===============4519553168277691740==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<p>You're receiving this email because you need to finish activation process on 127.0.0.1:8000.</p>
+
+<p>Please go to the following page to activate account:</p>
+<p><a href="http://127.0.0.1:8000/activate/MjY/cgsfq8-0ac255d7214d74aba99c82cbfe5dac8c/">http://127.0.0.1:8000/activate/MjY/cgsfq8-0ac255d7214d74aba99c82cbfe5dac8c/</a></p>
+
+<p>Thanks for using our site!</p>
+
+<p>The 127.0.0.1:8000 team</p>
+--===============4519553168277691740==--
+
+-------------------------------------------------------------------------------

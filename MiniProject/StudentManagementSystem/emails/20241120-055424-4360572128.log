@@ -1,0 +1,39 @@
+Content-Type: multipart/alternative;
+ boundary="===============9043924220236895944=="
+MIME-Version: 1.0
+Subject: Account activation on 127.0.0.1:8000
+From: webmaster@localhost
+To: test@example.com
+Date: Wed, 20 Nov 2024 05:54:24 -0000
+Message-ID: 
+ <173208206421.3869.4291158031338928643@MacBook-Pro-Yermakhan.local>
+
+--===============9043924220236895944==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+You're receiving this email because you need to finish activation process on 127.0.0.1:8000.
+
+Please go to the following page to activate account:
+http://127.0.0.1:8000/activate/MTY/cgs0eo-f6af170959766421ad7bb486a3b63cc1/
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+--===============9043924220236895944==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<p>You're receiving this email because you need to finish activation process on 127.0.0.1:8000.</p>
+
+<p>Please go to the following page to activate account:</p>
+<p><a href="http://127.0.0.1:8000/activate/MTY/cgs0eo-f6af170959766421ad7bb486a3b63cc1/">http://127.0.0.1:8000/activate/MTY/cgs0eo-f6af170959766421ad7bb486a3b63cc1/</a></p>
+
+<p>Thanks for using our site!</p>
+
+<p>The 127.0.0.1:8000 team</p>
+--===============9043924220236895944==--
+
+-------------------------------------------------------------------------------

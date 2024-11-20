@@ -1,0 +1,39 @@
+Content-Type: multipart/alternative;
+ boundary="===============7699206434246319081=="
+MIME-Version: 1.0
+Subject: Account activation on 127.0.0.1:8000
+From: webmaster@localhost
+To: opo@mail.ru
+Date: Wed, 20 Nov 2024 10:26:22 -0000
+Message-ID: 
+ <173209838272.3733.11216563427384076507@1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa>
+
+--===============7699206434246319081==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+You're receiving this email because you need to finish activation process on 127.0.0.1:8000.
+
+Please go to the following page to activate account:
+http://127.0.0.1:8000/activate/MTk/cgsczy-56a53561f8495850171e06bc7a190d04/
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+--===============7699206434246319081==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<p>You're receiving this email because you need to finish activation process on 127.0.0.1:8000.</p>
+
+<p>Please go to the following page to activate account:</p>
+<p><a href="http://127.0.0.1:8000/activate/MTk/cgsczy-56a53561f8495850171e06bc7a190d04/">http://127.0.0.1:8000/activate/MTk/cgsczy-56a53561f8495850171e06bc7a190d04/</a></p>
+
+<p>Thanks for using our site!</p>
+
+<p>The 127.0.0.1:8000 team</p>
+--===============7699206434246319081==--
+
+-------------------------------------------------------------------------------

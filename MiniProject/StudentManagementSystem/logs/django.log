@@ -1,0 +1,85 @@
+Новый пользователь зарегистрирован: newuser@example.com, роль: student
+Новый пользователь зарегистрирован: worklog@mail.ru, роль: teacher
+Попытка входа неавторизованного пользователя.
+Попытка входа неавторизованного пользователя.
+Пользователь с email вошел в систему.
+Новый пользователь зарегистрирован: lastuser@mail.ru, роль: admin
+Watching for file changes with StatReloader
+Новый пользователь зарегистрирован: nowlast@kbtu.kz, роль: teacher
+Студент Zhomart записан на курс django
+/Users/yermakhankasymzhomart/Desktop/Django/StudentManagementSystem/MiniProject/StudentManagementSystem/StudentManagementSystem/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /admin/attendance/attendance/add/ HTTP/1.1" 302 0
+/Users/yermakhankasymzhomart/Desktop/Django/StudentManagementSystem/MiniProject/StudentManagementSystem/students/signals.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Attendance Absent выставлена студенту Zhomart за курс django
+"POST /admin/attendance/attendance/add/ HTTP/1.1" 302 0
+Оценка обновлена для студента Zhomart: новый балл 5
+"POST /admin/grades/grade/add/ HTTP/1.1" 302 0
+Watching for file changes with StatReloader
+"POST /admin/students/student/add/ HTTP/1.1" 302 0
+Новый пользователь зарегистрирован: student1@example.com, роль: Student
+Новый пользователь зарегистрирован: student2@example.com, роль: Student
+Новый пользователь зарегистрирован: student1@example.com, роль: Student
+Новый пользователь зарегистрирован: student2@example.com, роль: Student
+Новый пользователь зарегистрирован: student1@example.com, роль: Student
+Новый пользователь зарегистрирован: student2@example.com, роль: Student
+Новый пользователь зарегистрирован: student1@example.com, роль: Student
+Новый пользователь зарегистрирован: student2@example.com, роль: Student
+Новый пользователь зарегистрирован: student1@example.com, роль: Student
+Новый пользователь зарегистрирован: student2@example.com, роль: Student
+Новый пользователь зарегистрирован: student1@example.com, роль: Student
+Новый пользователь зарегистрирован: student2@example.com, роль: Student
+Watching for file changes with StatReloader
+/Users/yermakhankasymzhomart/Desktop/Django/StudentManagementSystem/MiniProject/StudentManagementSystem/courses/views.py changed, reloading.
+Watching for file changes with StatReloader
+Новый пользователь зарегистрирован: student1@example.com, роль: Student
+Новый пользователь зарегистрирован: student2@example.com, роль: Student
+Новый пользователь зарегистрирован: student1@example.com, роль: Student
+Новый пользователь зарегистрирован: student2@example.com, роль: Student
+Новый пользователь зарегистрирован: student1@example.com, роль: Student
+Новый пользователь зарегистрирован: student2@example.com, роль: Student
+Новый пользователь зарегистрирован: student1@example.com, роль: Student
+Новый пользователь зарегистрирован: student2@example.com, роль: Student
+Новый пользователь зарегистрирован: student1@example.com, роль: Student
+Новый пользователь зарегистрирован: student2@example.com, роль: Student
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/redoc-init.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/redoc/redoc.min.js HTTP/1.1" 304 0
+django.db.utils.OperationalError: no such table: analytics_apirequestlog
+"GET /api/analytics/ HTTP/1.1" 500 150108
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /admin/analytics/apirequestlog/add/ HTTP/1.1" 302 0
+"POST /admin/analytics/popularcourse/add/ HTTP/1.1" 302 0
+Новый пользователь зарегистрирован: student1@example.com, роль: Student
+Новый пользователь зарегистрирован: student2@example.com, роль: Student
+Новый пользователь зарегистрирован: student1@example.com, роль: Student
+Новый пользователь зарегистрирован: student2@example.com, роль: Student
+Watching for file changes with StatReloader
+Оценка обновлена для студента Leo: новый балл 92
+"POST /admin/grades/grade/add/ HTTP/1.1" 302 0
+Новый пользователь зарегистрирован: admin1212@kbtu.kz, роль: Admin
+Новый пользователь зарегистрирован: student212@kbtu.kz, роль: Student
+Студент kasym записан на курс Course 1
+Новый пользователь зарегистрирован: admin1212@kbtu.kz, роль: Admin
+Новый пользователь зарегистрирован: teacher1212@kbtu.kz, роль: Teacher
+

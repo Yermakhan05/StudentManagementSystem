@@ -1,0 +1,39 @@
+Content-Type: multipart/alternative;
+ boundary="===============7124193064220646783=="
+MIME-Version: 1.0
+Subject: Account activation on 127.0.0.1:8000
+From: webmaster@localhost
+To: newuser@gmail.com
+Date: Wed, 20 Nov 2024 10:17:54 -0000
+Message-ID: 
+ <173209787462.3540.8194805625496851371@1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa>
+
+--===============7124193064220646783==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+You're receiving this email because you need to finish activation process on 127.0.0.1:8000.
+
+Please go to the following page to activate account:
+http://127.0.0.1:8000/activate/MTg/cgsclu-f0e869bb19a3a3149332eea6404c52ca/
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+--===============7124193064220646783==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<p>You're receiving this email because you need to finish activation process on 127.0.0.1:8000.</p>
+
+<p>Please go to the following page to activate account:</p>
+<p><a href="http://127.0.0.1:8000/activate/MTg/cgsclu-f0e869bb19a3a3149332eea6404c52ca/">http://127.0.0.1:8000/activate/MTg/cgsclu-f0e869bb19a3a3149332eea6404c52ca/</a></p>
+
+<p>Thanks for using our site!</p>
+
+<p>The 127.0.0.1:8000 team</p>
+--===============7124193064220646783==--
+
+-------------------------------------------------------------------------------

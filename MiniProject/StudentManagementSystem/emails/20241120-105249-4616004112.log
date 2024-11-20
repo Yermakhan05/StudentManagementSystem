@@ -1,0 +1,39 @@
+Content-Type: multipart/alternative;
+ boundary="===============6035306703478254726=="
+MIME-Version: 1.0
+Subject: Account activation on 127.0.0.1:8000
+From: webmaster@localhost
+To: worklog@mail.ru
+Date: Wed, 20 Nov 2024 10:52:49 -0000
+Message-ID: 
+ <173209996914.4457.11008426897572546508@1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa>
+
+--===============6035306703478254726==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+You're receiving this email because you need to finish activation process on 127.0.0.1:8000.
+
+Please go to the following page to activate account:
+http://127.0.0.1:8000/activate/MjQ/cgse81-b4a5e171374fe56bdb34d939e79eb928/
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+--===============6035306703478254726==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<p>You're receiving this email because you need to finish activation process on 127.0.0.1:8000.</p>
+
+<p>Please go to the following page to activate account:</p>
+<p><a href="http://127.0.0.1:8000/activate/MjQ/cgse81-b4a5e171374fe56bdb34d939e79eb928/">http://127.0.0.1:8000/activate/MjQ/cgse81-b4a5e171374fe56bdb34d939e79eb928/</a></p>
+
+<p>Thanks for using our site!</p>
+
+<p>The 127.0.0.1:8000 team</p>
+--===============6035306703478254726==--
+
+-------------------------------------------------------------------------------
